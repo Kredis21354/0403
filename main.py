@@ -19,6 +19,12 @@ class Mum(Person):
     super().__init__("Mum")
 
 
+class Sister(Person):
+  name = "Kate"
+  age = 16
+
+  def __init__(self):
+    super().__init__("Kate")
 
 
 
